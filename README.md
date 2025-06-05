@@ -1,1 +1,1 @@
-# vegetable_classifier
+# deep-learning-vegetable-classifier
