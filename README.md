@@ -32,17 +32,19 @@ Training curves (loss and accuracy):
 ![Training Curves](images/validationandlossfunc.png)
 
 ## Performance Summary
-The ResNet18 model delivered the strongest results. Transfer learning helped it reach high accuracy and stable predictions. AlexNet achieved solid performance but did not match ResNet18. The custom CNN performed well for a scratch model and showed good learning behaviour, but its overall accuracy stayed lower.
+The ResNet18 model delivered the strongest results. Transfer learning helped it reach high accuracy and stable predictions. AlexNet achieved solid performance but did not match ResNet18. The custom CNN performed well for a scratch model and showed good learning behaviour, but its overall accuracy stayed lower. The performance table is shown below.
 
-  Model          Accuracy   Precision   Recall   F1 Score  
-  ResNet18         0.99       0.99        0.99     0.99      
-  AlexNet          0.89       0.88        0.87     0.875     
-  Custom CNN       0.83       0.87        0.86     0.865
+| Model       | Accuracy | Precision | Recall | F1 Score |
+|:------------|:--------:|:---------:|:------:|:--------:|
+| ResNet18    | 0.99     | 0.99      | 0.99   | 0.99     |
+| AlexNet     | 0.89     | 0.88      | 0.87   | 0.875    |
+| Custom CNN  | 0.83     | 0.87      | 0.86   | 0.865    |
 
-Confusion matrix for ResNet18:
 
+This is Confusion matrix for ResNet18:
 ![Confusion Matrix](images/confussionmatrix.png)
 
 ## Skills Demonstrated
 This project covers convolutional neural networks, transfer learning, image preprocessing, PyTorch training loops, metric evaluation, and model comparison. It also shows the ability to manage complete experiments and analyse results clearly.
+
 
